@@ -1,3 +1,8 @@
+<img width="2752" height="1536" alt="unnamed (1)" src="https://github.com/user-attachments/assets/e7cc0779-e810-4c31-877a-975ddb51eaa7" />
+
+
+
+
 # Electric Motor Production Quality Monitoring
 
 ## Project Overview
