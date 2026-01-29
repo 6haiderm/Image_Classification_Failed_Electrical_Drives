@@ -9,3 +9,22 @@ https://github.com/6haiderm/Image_Classification_Failed_Electrical_Drives/blob/m
 
 ##I used VS code, and Python to push the files to my GitHub Repository.
 ##Also, you can use the above-provided link to check the Google Collab Notebook.
+
+
+
+flowchart TB
+    CAM[Image Acquisition<br/>(Industrial Cameras)]
+    PRE[Image Preprocessing<br/>• Resize<br/>• Normalize<br/>• Denoise]
+    FEAT[Feature Representation]
+    SVM[SVM Classifier]
+    CNN[CNN Classifier]
+    OUT[Assembly State Prediction<br/>(4 Classes)]
+    QC[Quality Control Decision]
+
+    CAM --> PRE
+    PRE --> FEAT
+    FEAT --> SVM
+    FEAT --> CNN
+    SVM --> OUT
+    CNN --> OUT
+    OUT --> QC
